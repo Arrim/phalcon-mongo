@@ -1,0 +1,26 @@
+{
+  "name": "arrim/phalcon-mongo",
+  "description": "Extended mongo collection for Phalcon",
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "psr-4": {
+      "Arrim\\Phalcon\\Mvc\\": "src/"
+    }
+  },
+  "keywords": [
+    "framework",
+    "phalcon",
+    "incubator",
+    "mongo"
+  ],
+  "require": {
+    "mongodb/mongodb" : "*",
+    "phalcon/incubator": "*"
+  },
+  "authors": [
+    {
+      "name": "Max Arrim Popov",
+      "email": "arrim46@gmail.com"
+    }
+  ]
+}
